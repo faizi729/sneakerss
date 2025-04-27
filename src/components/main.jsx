@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-
+import img1 from '../../images/img11.jpg';
+import img2 from '../../images/img22.jpg';
+import img3 from '../../images/img33.jpg';
+import img4 from '../../images/img44.jpg';
 const Main = () => {
   const images = [
-    '../images/img11.jpg',
-    '../images/img22.jpg',
-    '../images/img33.jpg',
-    '../images/img44.jpg',
+    img1,
+   img2,
+   img3,
+   img4,
   ];
 
   const [mainImage, setMainImage] = useState(images[0]);

@@ -1,5 +1,7 @@
 import React from 'react'
+import img1 from "../../images/icon-cart.svg"
 
+import img2 from "../../images/image-avatar.png"
 const Navbar = () => {
   return (
     <>
@@ -16,8 +18,8 @@ const Navbar = () => {
       </div>
 
       <div className="flex flex-row items-center gap-7">
-        <img src="../images/icon-cart.svg" alt="cart" className="object-contain" />
-        <img src="../images/image-avatar.png" alt="user" className="w-10 h-10 rounded-full cursor-pointer object-cover hover:border-2 hover:border-[#FF7D1A]" />
+        <img src={img1} alt="cart" className="object-contain" />
+        <img src={img2} alt="user" className="w-10 h-10 rounded-full cursor-pointer object-cover hover:border-2 hover:border-[#FF7D1A]" />
       </div>
     </nav>
       <hr className='max-w-7xl mx-auto text-[#cdd0d6]  '/>
