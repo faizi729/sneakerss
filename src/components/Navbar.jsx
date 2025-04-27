@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from "../../images/icon-cart.svg"
+import img3 from "../../images/logo.svg"
 
 import img2 from "../../images/image-avatar.png"
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
     <>
     <nav className="flex flex-row justify-between items-center max-w-7xl mx-auto p-6">
       <div className="flex flex-row items-center gap-10">
-        <img src="../images/logo.svg" alt="logo" className="object-contain" />
+        <img src={img3} alt="logo" className="object-contain" />
         <ul className="flex flex-row text-[#9b9da1] gap-8">
           <li><a href="#home" className=' pb-8 hover:border-2 hover:border-b-[#ff7d1a] hover:border-t-0 hover:border-l-0 hover:border-r-0'>Collections</a></li>
           <li><a href="#home" className=' pb-8 hover:border-2 hover:border-b-[#ff7d1a] hover:border-t-0 hover:border-l-0 hover:border-r-0'>Men</a></li>
